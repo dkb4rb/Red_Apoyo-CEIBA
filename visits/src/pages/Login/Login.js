@@ -6,13 +6,34 @@ import Input from './components/Input/Input'
 import Buttom from './components/Buttom/Buttom'
 
 const Login = () => {
+
+    
+    function Error_H(name, value){
+        if(name === 'usuario'){
+            
+        }
+    }
+
     return (
         <div className="Login">
             <Title />
             <Label texto='Usuario'/>
-            <Input />
+            <Input atributo={{
+                id:'usuario',
+                name:'usuario',
+                type:'text',
+                placeholder:'Ingrese su Usuario'
+
+            }}
+            />
             <Label texto='Contraseña'/>
-            <Input />
+            <Input atributo={{
+                id:'password',
+                name:'password',
+                type:'password',
+                placeholder:'Ingrese su Contraseña'
+
+            }}/>
             <Buttom />
             
         </div>
