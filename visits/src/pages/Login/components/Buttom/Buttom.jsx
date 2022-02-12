@@ -1,9 +1,10 @@
 import React from "react";
+import {iniciarSesion} from '../../Login.js'
 
 const Buttom = () => {
     return (
         <div className="Buttom">
-            <button>Log In</button>
+            <button  onClick={()=> this.iniciarSesion()}>Log In</button>
         </div>
     )
 };

@@ -1,0 +1,7 @@
+{
+    "usuarios": [
+      { "id": 1, "apellido": "Duque", "nombre": "juan", "username":"dkb4rb", "password":"Holas1" },
+      { "id": 2, "apellido": "Agudelo", "nombre": "Diego", "username":"dkb4rb1", "password":"Holas2"},
+      { "id": 3, "apellido": "Giraldo", "nombre": "Carlos", "username":"dkb4rb2", "password":"Holas3" }
+    ]
+  }

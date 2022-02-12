@@ -1,5 +1,6 @@
 import React from "react";
-import './input.css'
+import './Input.css'
+import {iniciarSesion} from '../../Login.js'
 
  const Input = ({atributo, Error_H, parametro }) => {
     return (
@@ -10,7 +11,6 @@ import './input.css'
                 name={atributo.name}
                 placeholder={atributo.placeholder}
                 type={atributo.type}
-                onChange={(e) => Error_H(e.target.name,e.target.value)}
                 className="regular style"
              />
         
