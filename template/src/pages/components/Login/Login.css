@@ -1,0 +1,45 @@
+.containerPrincipal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid blue;
+    border-radius: 33px;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 100ex;
+  }
+  
+  .containerSecundario{
+    text-align: center;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .buttons {
+    text-align: center;
+  }
+
+  .icon_login {
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.541);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-left: 16px;
+    padding: 100px;
+    border-radius: 100px;
+  }
+
+.nav_principal li:hover{
+    background-color: #3d3a3a;
+}
+
+.logo_navbar img {
+  width: 93%;
+  height: 78%;
+  position: relative;
+  top: 5px;
+}

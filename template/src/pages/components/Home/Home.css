@@ -1,0 +1,68 @@
+.nav_principal li:hover{
+    background-color: #3d3a3a;
+}
+
+.logo_navbar img {
+  width: 93%;
+  height: 78%;
+  position: relative;
+  top: 5px;
+}
+
+header {
+    position: fixed;
+    background-color: #bfd7d7;
+    display: inline-flex;
+    width: 100%;
+    height: 89px;
+    justify-content: space-around;
+}
+
+.header_col {
+    display: flex;
+    justify-content: space-between;
+    height: 51px;
+}
+
+.nav_principal {
+    text-align: right;
+    float: right;
+}
+
+.nav_principal ul{
+    list-style-type: none;
+    text-align: right;
+    display: flex;
+}
+
+.sections {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_principal li {
+    text-align: center;
+    margin: 12px;
+    height: 3px;
+}
+
+.li_button {
+    margin-top: -6px;
+}
+
+.nav_principal li:hover{
+    text-decoration: none;
+    color: #3d3a3a;
+    
+}
+
+.aref:hover {
+    text-decoration: none;
+    color: #3d3a3a;
+}
+
+li a {
+    text-decoration: none;
+    color: #7a52528a;
+}
+

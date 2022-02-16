@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import '../css/Login.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './Login.css'
 import axios from 'axios';
-import md5 from 'md5';
+//import md5 from 'md5';
 import Cookies from 'universal-cookie';
 
 const baseUrl="http://localhost:3001/usuarios";
@@ -59,6 +59,9 @@ class Login extends Component {
     render() {
         return (
     <div className="containerPrincipal">
+        <div className='icon_login'>
+            <a></a>
+        </div>
         <div className="containerSecundario">
           <div className="form-group">
             <label>Usuario: </label>
@@ -80,6 +83,13 @@ class Login extends Component {
             />
             <br />
             <button className="btn btn-primary" onClick={()=> this.iniciarSesion()}>Iniciar Sesión</button>
+            <br />
+            <br />
+            <div>
+                <a href='./Registro'> Crear Cuenta</a>
+                <br />
+                <a href='./Forgot_Pass'> Olvide mi contraseña </a>
+            </div>
           </div>
         </div>
       </div>
