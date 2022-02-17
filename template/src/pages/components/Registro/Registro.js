@@ -1,24 +1,18 @@
-import React, { Component, useState } from "react";
-import Cookies from 'universal-cookie';
-import axios from 'axios';
+import React, { useEffect, useState } from "react";
+
+import { helpHttp } from "../../helpers/helpHttp";
+import ComponentDidMount from "../../helpers/component/componentDidMount";
 
 import './Registro.css';
 
-import Input from '../Input/Input';
-import Title from '../Title/Title';
 import Form from '../Form/Form';
-import Label from '../Label/Label';
+import Title from '../Title/Title';
+import Loader from "../Loader/Loader";
+import Message from "../Error/Message"
+import CrearUsuario from "../../helpers/helpCrearUsario";
 
-
-const baseUrl="http://localhost:3001/usuarios";
-const cookies = new Cookies();
-
-function ComponentDidMount () {
-
-    if (cookies.get('username')) {
-        window.location.href = "./menu";
-    };
-}
+const DbUrl="http://localhost:3001/usuarios";
+let api = helpHttp();
 
 const initform = {
         username: '',
@@ -28,7 +22,31 @@ const initform = {
 
 const Registro = () => {
     const [form ,setForm] = useState(initform);
-    
+   // const [editForm, setEditForm] = useState(null);
+    const [Err,setErr] = useState(null);
+    const [Loading, setLoading] = useState(false);
+
+    useEffect( () => {
+        setLoading(true);
+        api.get(DbUrl).then((res) => {
+            //console.log(res);
+            if(!res.err){
+                setForm(res);
+                setErr(null);
+            }else {
+                setForm(null);
+                setErr(res)
+            }
+        });
+        setLoading(false);
+    },[]
+    )
+    const handleSubmit = async (e) =>{
+        e.preventDefault();
+        if(!form.username || !form.password){
+            alert('Completa el Form');
+        }
+    }
     const handleChange = async (e) =>{
         setForm({
             ...form,
@@ -36,71 +54,22 @@ const Registro = () => {
         });
     }
 
-    const handleSubmit = async (e) =>{
-        e.preventDefault();
-        if(!form.username || !form.password){
-            alert('Completa el Form');
-        }
-    }
-
-    function CrearUsuario() {
-        //if({state}>0){
-        //cookies.set('id', respuesta.id, {path: "/"});
-        //cookies.set('apellido', respuesta.apellido, {path: "/"});
-        //cookies.set('nombre', respuesta.nombre, {path: "/"});
-        //cookies.set('username', respuesta.username, {path: "/"});
-        console.log('Crear usuario esta listo');
-        //window.location.href="./menu";
-        // }else{
-        //   alert("El usuario Ya Existe");
-        //}
-    }
+           
     ComponentDidMount();
     return (
         <div className="containerPrincipal"> 
             <div>
                 <div className="container_registro">
+                    {Loading && <Loader />}
+                    {Err && <Message Mensaje={'Error ' + Err.status + ' : ' + Err.statusText}/>}
+                    {!form && (<h1>Error al conectar a la base de datos</h1>)}
                     <div className="form-group">
-                        <h1 className="title">
-                            Registro Red Apoyo
-                            <br />
-                            <a><b>CEIBA</b></a>
-                        </h1>
+                        <Title 
+                            title='Red de Apoyo'
+                            subtitle='CEIBA'
+                        />
                     </div>
-                    <div className="Formulario_inputs">
-                        <form onSubmit={handleSubmit}>
-                            
-                            <Label texto='Usuario'/>
-                            <Input atributo={{
-                                id:'username',
-                                name:'username',
-                                type:'text',
-                                placeholder:'Ingrese su Usuario',
-                                onChange:handleChange
-                                
-                            }}
-                            /><br></br>
-
-                            <Label texto='Contraseña'/>
-                            <Input atributo={{
-                                id:'password',
-                                name:'password',
-                                type:'password',
-                                placeholder:'Ingrese su Contraseña',
-                                onChange: handleChange
-                                
-                            }}
-                            />
-                            <br />
-                            <br />
-                            <div className="buttons">
-                                <button
-                                    className="btn btn-primary"
-                                    onClick={CrearUsuario}>Registrar
-                                </button>
-                            </div>
-                        </form>
-                    </div>
+                   <Form handleChange={handleChange} handleSubmit={handleSubmit} CrearUsuario={() => CrearUsuario(form)}/>
                 </div>
             </div>
         </div>

@@ -5,7 +5,6 @@ const Input = ({atributo, Error_H, parametro }) => {
     return (
         <div className="Input">
             <input 
-                type="text"
                 id={atributo.id}
                 name={atributo.name}
                 placeholder={atributo.placeholder}

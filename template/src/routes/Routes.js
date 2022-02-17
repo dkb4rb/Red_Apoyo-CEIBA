@@ -6,6 +6,7 @@ import Menu from '../pages/components/Menu/Menu';
 import Resgistro from '../pages/components/Registro/Registro';
 
 function Routes() {
+  
   return (
     <BrowserRouter>
       <Switch>

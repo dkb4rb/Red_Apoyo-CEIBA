@@ -60,7 +60,7 @@ class Login extends Component {
         return (
     <div className="containerPrincipal">
         <div className='icon_login'>
-            <a></a>
+            <p>X</p>
         </div>
         <div className="containerSecundario">
           <div className="form-group">
