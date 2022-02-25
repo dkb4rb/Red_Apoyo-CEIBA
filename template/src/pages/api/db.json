@@ -1,28 +1,86 @@
 {
   "usuarios": [
     {
-      "id": 1,
+      "nombre": "JUAN",
+      "apellido": "DUQ",
+      "Fecha_Nacimiento": "UE",
+      "username": "AS",
+      "password": "SA",
+      "id": 1645770946368
+    },
+    {
+      "nombre": "AA",
+      "apellido": "AA",
+      "Fecha_Nacimiento": "AA",
+      "username": "AA",
+      "password": "AA",
+      "id": 1645771027530
+    },
+    {
+      "nombre": "Andres",
       "apellido": "Duque",
-      "nombre": "juan",
+      "Fecha_Nacimiento": "2021/20/2",
       "username": "dkb4rb",
-      "password": "Holas1",
-      "mssg": "Holas"
+      "password": "dkajdkadj",
+      "id": 1645773356106
+    },
+    {
+      "nombre": "asa",
+      "apellido": "as",
+      "id": 1645791423831
+    },
+    {
+      "nombre": "Juan",
+      "apellido": "Giraldo",
+      "id": 1645791487145,
+      "Fecha_Nacimiento": "2021/20/2",
+      "username": "teste",
+      "password": "Holas123*"
+    },
+    {
+      "nombre": "",
+      "id": 1645791618206
+    },
+    {
+      "nombre": "",
+      "id": 1645791629697
+    },
+    {
+      "nombre": "zzZS",
+      "id": 1645791706587,
+      "apellido": "aaa",
+      "Fecha_Nacimiento": "aas",
+      "username": "sass",
+      "password": "adssa"
+    }
+  ],
+  "Houses": [
+    {
+      "id": 1,
+      "Direccion": "calle 93B # 34 -50",
+      "Pais": "Colombia",
+      "Ciudad": "Medellin",
+      "Habitaciones": 4,
+      "Baños": 2,
+      "Estado": 1
     },
     {
       "id": 2,
-      "apellido": "Agudelo",
-      "nombre": "Diego",
-      "username": "dkb4rb1",
-      "password": "Holas2",
-      "mssg": "Holas"
+      "Direccion": "calle 93B # 34 -50",
+      "Pais": "Colombia",
+      "Ciudad": "Medellin",
+      "Habitaciones": 4,
+      "Baños": 2,
+      "Estado": 1
     },
     {
       "id": 3,
-      "apellido": "Giraldo",
-      "nombre": "Carlos",
-      "username": "dkb4rb2",
-      "password": "Holas3",
-      "mssg": "Holas"
+      "Direccion": "calle 93B # 34 -50",
+      "Pais": "Colombia",
+      "Ciudad": "Medellin",
+      "Habitaciones": 4,
+      "Baños": 2,
+      "Estado": 1
     }
   ]
 }

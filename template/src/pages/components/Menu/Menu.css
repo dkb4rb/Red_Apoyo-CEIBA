@@ -1,0 +1,32 @@
+div.logo_navbar {
+   
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/6908/6908753.png);
+    width: 52px;
+    height: 52px;
+    border-radius: 124px;
+    border-style: outset;
+    margin-left: 48px;
+
+}
+
+.usr_btn_menu {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/1177/1177568.png');
+    width: 34px;
+    height: 34px;
+    
+}
+
+.container_menu {
+
+    align-content: center;
+    text-align-last: center;
+    background-color: #a9a9a9c7;
+}
+
+..container_carousel_principal {
+    background-color: #8800ffc7;
+}

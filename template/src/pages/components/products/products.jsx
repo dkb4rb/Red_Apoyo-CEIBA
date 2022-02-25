@@ -1,20 +1,20 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Cookies from 'universal-cookie';
 import Header from '../Header/Header';
-import Carousel from '../Carousel/Carousel';
 import Footer from '../Footer/Footer';
-import './Menu.css'
+import Card from '../Card/card';
+
 
 const cookies = new Cookies();
 
-const redirect = () => {
-    window.location.href = './Login';
+const redirect = () =>{
+
+    window.location.href('./Login');
 }
 
+const products = () => {
 
-class Menu extends Component {    
-
-    cerrarSesion = () => {
+    function cerrarSesion() {
         cookies.remove('id', { path: "/" });
         cookies.remove('apellido_paterno', { path: "/" });
         cookies.remove('apellido_materno', { path: "/" });
@@ -23,28 +23,22 @@ class Menu extends Component {
         window.location.href = './';
     }
 
-    componentDidMount() {
+    const componentDidMount = () => {
         if (!cookies.get('username')) {
             window.location.href = "./";
         }
     }
 
-    render() {
-        console.log('id: ' + cookies.get('id'));
-        console.log('apellido_paterno: ' + cookies.get('apellido_paterno'));
-        console.log('apellido_materno: ' + cookies.get('apellido_materno'));
-        console.log('nombre: ' + cookies.get('nombre'));
-        console.log('username: ' + cookies.get('username'));
-        return (
-            <div className='container_menu'>
+    return (
+        <div className='container_menu'>
                 <div>
                     <Header />
                 </div>
                 <br />
                 <br />
                 <div>
-                    <div className="container_carousel_principal">                      
-                        <Carousel />
+                    <div className="container_carousel_products">                      
+                        <Card />
                     </div>
                 </div>
                 <div>
@@ -59,8 +53,7 @@ class Menu extends Component {
                     <Footer />
                 </div>
             </div>
-        );
-    }
+  )
 }
 
-export default Menu;
+export default products

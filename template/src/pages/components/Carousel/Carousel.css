@@ -1,0 +1,21 @@
+.container_carousel {
+   
+    width: 80%;
+    margin: auto;
+}
+
+.carousel-item2 {
+    position: absolute;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+}
