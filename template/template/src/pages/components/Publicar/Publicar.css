@@ -1,0 +1,10 @@
+.container_publicar {
+    width: 314px;
+    height: 454px;
+    margin: auto;
+    margin-top: 90px;
+    background: black;
+    border-radius: 50px;
+    border: 88px;
+    border-color: red;
+}

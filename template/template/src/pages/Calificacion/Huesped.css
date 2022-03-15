@@ -1,0 +1,16 @@
+.Formulario_inputs {
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+}
+
+.Logo_Regis {
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/6908/6908753.png);
+    width: 110px;
+    border-radius: 41px;
+}

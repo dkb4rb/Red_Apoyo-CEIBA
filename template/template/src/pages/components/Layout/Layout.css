@@ -1,0 +1,43 @@
+* {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    color: #484848;
+}
+
+div.logo_navbar {
+   
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/6908/6908753.png);
+    width: 52px;
+    height: 52px;
+    border-radius: 124px;
+    border-style: outset;
+    margin-left: 48px;
+
+}
+
+.usr_btn_menu {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/1177/1177568.png);
+    margin-top: 3px;
+    margin-left: 17px;
+    height: 32px;
+    width: 30px;
+    
+}
+
+.container_menu {
+
+    align-content: center;
+    text-align-last: center;
+    background-color: aliceblue;
+}
+
+.container_carousel_principal {
+    background-color: none;
+}
+
+
+

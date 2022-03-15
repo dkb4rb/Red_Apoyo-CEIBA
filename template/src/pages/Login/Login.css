@@ -1,0 +1,55 @@
+.containerPrincipal {
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #3a353547;
+  border-radius: 33px;
+  padding: 40px;
+  box-shadow: 4px -3px 19px #dddddd69;
+  background-color: white;
+}
+
+.containerSecundario {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.icon_login {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(https://cdn-icons-png.flaticon.com/512/6908/6908753.png);
+  width: 155px;
+  height: 153px;
+  border-radius: 124px;
+  border-style: outset;
+  margin-left: 34px;
+}
+
+.logo_navbar img {
+  width: 93%;
+  height: 78%;
+  position: relative;
+  top: 5px;
+}
+
+label {
+  font-family: "Courier New", Courier, monospace;
+  color: dimgray;
+}
+
+.btn-primary {
+  color: #5c4f4f;
+  background-color: #8e92978c;
+  border-color: #788089;
+}
+
+.btn-primary:hover {
+  color: #ffffffc6;
+  background-color: #2f33398c;
+  border-color: #31373e;
+}
