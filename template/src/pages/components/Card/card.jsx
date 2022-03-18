@@ -2,11 +2,7 @@ import React from 'react'
 import './card.css'
 
 
-function testing(){
-    console.log('ESta es la funcion de testing');
 
-    
-};
 
 const test = () => {
 

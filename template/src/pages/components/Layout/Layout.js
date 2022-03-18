@@ -31,9 +31,6 @@ class Layout extends Component {
 
     render() {
         console.log('id: ' + cookies.get('id'));
-
-        console.log('nombre: ' + cookies.get('nombre'));
-        console.log('username: ' + cookies.get('username'));
         return (
             <>
                 <Layouut />

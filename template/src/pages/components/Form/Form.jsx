@@ -1,7 +1,6 @@
 import React from "react";
 
 import Input from '../Input/Input';
-import Label from '../Label/Label';
 import Title from "../Title/Title";
 import './Form.css'
 
@@ -27,6 +26,22 @@ const Form = ({ handleSubmit, handleChange, CrearUsuario, setLoading, setForm, s
 
                     /><br></br>
                 </div>
+
+                <div className="In_puts" >
+                    <Input atributo={{
+                        id: 'user_lastname',
+                        name: 'apellido',
+                        type: 'text',
+                        placeholder: 'Ingrese su Apellido',
+                        onChange: handleChange
+
+                    }}
+                    /><br></br>
+
+                </div>
+
+
+
                 <div className="In_puts" >
 
                     <Input atributo={{
@@ -53,10 +68,11 @@ const Form = ({ handleSubmit, handleChange, CrearUsuario, setLoading, setForm, s
                     <br />
                 </div>
 
+
                 <div className="In_puts" >
                     <Input atributo={{
-                        id: 'user_lastname',
-                        name: 'apellido',
+                        id: 'user_pais',
+                        name: 'pais',
                         type: 'text',
                         placeholder: 'Ingrese su Pais',
                         onChange: handleChange

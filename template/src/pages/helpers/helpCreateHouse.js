@@ -1,11 +1,11 @@
 import { helpHttp } from "./helpHttp";
 import axios from "axios";
 
-const DbUrl="http://localhost:3002/usuarios";
+const DbUrl="http://localhost:3002/Houses";
 
 
 
-const CrearUsuario = (data, setErr, setForm, setLoading) => {
+const CreateHouse = (data, setErr, setForm, setLoading) => {
     
     //console.log(data.id);
     
@@ -16,4 +16,4 @@ const CrearUsuario = (data, setErr, setForm, setLoading) => {
         data:data
     }).then(res => console.log(res.data));
 }
-export default CrearUsuario;
+export default CreateHouse;

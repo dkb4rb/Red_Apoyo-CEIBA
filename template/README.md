@@ -17,8 +17,6 @@ You will also see any lint errors in the console.
 Runs the API Fake in the development mode.<br />
 Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 
-json-server -w src/pages/api/db.json -p 3001
-
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 

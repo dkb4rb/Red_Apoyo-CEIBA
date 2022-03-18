@@ -15,14 +15,7 @@ import CrearUsuario from "../../pages/helpers/helpCrearUsario";
 const DbUrl = "http://localhost:3002/usuarios";
 let api = helpHttp();
 
-const initform = {
-    "id": null,
-    "apellido": "",
-    "nombre": "",
-    "username": "",
-    "password": "",
-    "mssg": "Holas"
-};
+
 
 const Registro = () => {
     const [form, setForm] = useState([]);
@@ -34,7 +27,7 @@ const Registro = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         if ((!form.username || !form.password) || (!form.nombre || !form.apellido)) {
-            alert('Completa el Form');
+            alert('Completa todos los campos');
         }
     }
     const handleChange = async (e) => {
@@ -49,14 +42,7 @@ const Registro = () => {
     return (
 
         <>
-            <div className="form-group">
-                <div className="Logo_Regis"></div>
-                <Title
-                    title='Red de Apoyo'
-                    subtitle='CEIBA'
-                    clsname='Head_forms'
-                />
-            </div>
+            
 
 
             <div className="containerPrincipal">

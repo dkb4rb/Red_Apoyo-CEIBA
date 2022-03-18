@@ -1,0 +1,35 @@
+.Map {
+    border-radius: 35px;
+    background: #dbdbdb;
+    width: 65%;
+    height: 403px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.MapSections {
+    margin-top: 50px;
+}
+
+.MapSections section {
+    display: flex;
+    width: 64%;
+    margin: auto;
+    padding: auto;
+}
+
+.MapSections section div {
+    display: flex;
+    margin: 10px;
+}
+
+.MapSections section div p {
+    margin: auto;
+    padding: 7px;
+}
+
+.MapSections section div p:hover {
+    background-color: #cfcfcf;
+    border-radius: 10px;
+    padding: 7px;
+}

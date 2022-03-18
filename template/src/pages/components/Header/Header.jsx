@@ -33,7 +33,8 @@ const Header = ({manage_states, username }) => {
                             <div class="btn-group" role="group" aria-label="Basic outlined example">
                                 <button onClick={() => manage_states("menu")} type="button" class="btn btn-outline-primaryy">Inicio</button>
                                 <button onClick={() => manage_states("publicar")} type="button" class="btn btn-outline-primaryy">Publicar</button>
-                                <button type="button" class="btn btn-outline-primaryy">Buscar Por Mapa</button>
+                                <button onClick={() => manage_states("Mapa")} type="button" class="btn btn-outline-primaryy">Buscar Por Mapa</button>
+                                <button onClick={() => manage_states("All")} type="button" class="btn btn-outline-primaryy">Listar Todo</button>
                             </div>
                         </nav>
                     </div>
@@ -42,7 +43,7 @@ const Header = ({manage_states, username }) => {
                         <div class="input-group rounded">
                             <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
                             <span class="input-group-text border-0" id="search-addon">
-                                <i class="gg-search"></i>
+                                <i onClick={() => alert('Iniciar la busqueda')} class="gg-search"></i>
                             </span>
                         </div>
                     </form>

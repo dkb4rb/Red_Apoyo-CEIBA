@@ -4,24 +4,76 @@
       "nombre": "Juan",
       "username": "dkb4rb",
       "password": "Holas123*",
-      "apellido": "Colombia",
+      "apellido": "Duque",
+      "pais": "colombia",
       "city": "Medellin",
       "user_addres": "Calle 93B # 34-50",
       "id": 1646528792819
+    },
+    {
+      "nombre": "juancho",
+      "username": "dkb",
+      "password": "Holas123*",
+      "apellido": "Duque",
+      "pais": "Colombia",
+      "city": "Medellin",
+      "user_addres": "Calle 93B # 34-50",
+      "id": 1647356033597
+    },
+    [],
+    {
+      "id": 1647563036633,
+      "nombre": "asa"
     }
   ],
   "Houses": [
     {
       "id": 1,
+      "nombre": "Noche de estrellas",
       "Direccion": "calle 93B # 34 -50",
       "Pais": "Colombia",
       "Ciudad": "Medellin",
       "Habitaciones": 4,
       "Baños": 2,
-      "Estado": 1
+      "Estado": 1,
+      "costo": "120.000"
     },
     {
       "id": 2,
+      "nombre": "dias de sol",
+      "Direccion": "calle 93B # 34 -50",
+      "Pais": "Colombia",
+      "Ciudad": "Medellin",
+      "Habitaciones": 4,
+      "Baños": 2,
+      "Estado": 1,
+      "costo": "150.000"
+    },
+    {
+      "id": 3,
+      "nombre": "Noche fiesta",
+      "Direccion": "calle 93B # 34 -50",
+      "Pais": "Colombia",
+      "Ciudad": "Medellin",
+      "Habitaciones": 4,
+      "Baños": 2,
+      "Estado": 1,
+      "costo": "110.000"
+    },
+    {
+      "id": 4,
+      "nombre": "Noche de estrellas",
+      "Direccion": "calle 93B # 34 -50",
+      "Pais": "Colombia",
+      "Ciudad": "Medellin",
+      "Habitaciones": 4,
+      "Baños": 2,
+      "Estado": 1,
+      "costo": "180.000"
+    },
+    {
+      "id": 5,
+      "nombre": "dias de sol",
       "Direccion": "calle 93B # 34 -50",
       "Pais": "Colombia",
       "Ciudad": "Medellin",
@@ -30,14 +82,173 @@
       "Estado": 1
     },
     {
-      "id": 3,
+      "id": 6,
+      "nombre": "Noche fiesta",
       "Direccion": "calle 93B # 34 -50",
       "Pais": "Colombia",
       "Ciudad": "Medellin",
       "Habitaciones": 4,
       "Baños": 2,
-      "Estado": 1
+      "Estado": 1,
+      "costo": "250.000"
+    },
+    {
+      "id": 7,
+      "nombre": "Noche de estrellas",
+      "Direccion": "calle 93B # 34 -50",
+      "Pais": "Colombia",
+      "Ciudad": "Medellin",
+      "Habitaciones": 4,
+      "Baños": 2,
+      "Estado": 1,
+      "costo": "260.000"
+    },
+    {
+      "id": 8,
+      "nombre": "dias de sol",
+      "Direccion": "calle 93B # 34 -50",
+      "Pais": "Colombia",
+      "Ciudad": "Medellin",
+      "Habitaciones": 4,
+      "Baños": 2,
+      "Estado": 1,
+      "costo": "190.000"
+    },
+    {
+      "id": 9,
+      "nombre": "Noche fiesta",
+      "Direccion": "calle 93B # 34 -50",
+      "Pais": "Colombia",
+      "Ciudad": "Medellin",
+      "Habitaciones": 4,
+      "Baños": 2,
+      "Estado": 1,
+      "costo": "120.000"
+    },
+    {
+      "id": 10,
+      "nombre": "Noche de estrellas",
+      "Direccion": "calle 93B # 34 -50",
+      "Pais": "Colombia",
+      "Ciudad": "Medellin",
+      "Habitaciones": 4,
+      "Baños": 2,
+      "Estado": 1,
+      "costo": "120.000"
+    },
+    {
+      "id": 11,
+      "nombre": "dias de sol",
+      "Direccion": "calle 93B # 34 -50",
+      "Pais": "Colombia",
+      "Ciudad": "Medellin",
+      "Habitaciones": 4,
+      "Baños": 2,
+      "Estado": 1,
+      "costo": "90.000"
+    },
+    {
+      "id": 12,
+      "nombre": "Noche fiesta",
+      "Direccion": "calle 93B # 34 -50",
+      "Pais": "Colombia",
+      "Ciudad": "Medellin",
+      "Habitaciones": 4,
+      "Baños": 2,
+      "Estado": 1,
+      "costo": "120.000"
+    },
+    {
+      "id": 13,
+      "nombre": "dias de sol",
+      "Direccion": "calle 93B # 34 -50",
+      "Pais": "Colombia",
+      "Ciudad": "Medellin",
+      "Habitaciones": 4,
+      "Baños": 2,
+      "Estado": 1,
+      "costo": "120.000"
+    },
+    {
+      "id": 14,
+      "nombre": "Noche fiesta",
+      "Direccion": "calle 93B # 34 -50",
+      "Pais": "Colombia",
+      "Ciudad": "Medellin",
+      "Habitaciones": 4,
+      "Baños": 2,
+      "Estado": 1,
+      "costo": "120.000"
+    },
+    {
+      "id": 15,
+      "nombre": "dias de sol",
+      "Direccion": "calle 93B # 34 -50",
+      "Pais": "Colombia",
+      "Ciudad": "Medellin",
+      "Habitaciones": 4,
+      "Baños": 2,
+      "Estado": 1,
+      "costo": "120.000"
+    },
+    {
+      "id": 16,
+      "nombre": "Noche fiesta",
+      "Direccion": "calle 93B # 34 -50",
+      "Pais": "Colombia",
+      "Ciudad": "Medellin",
+      "Habitaciones": 4,
+      "Baños": 2,
+      "Estado": 1,
+      "costo": "120.000"
+    },
+    {
+      "id": 1647436271527,
+      "nombre": "Atardecer en las mañanas",
+      "Estado": "2",
+      "Telefono": "3012434014",
+      "Pais": "Colombia",
+      "Ciudad": "Medellin",
+      "Direccion": "calle 32 a 53 b 32",
+      "Habitaciones": "5",
+      "Baños": "2",
+      "costo": "120.000"
+    },
+    {
+      "id": 1647436275040,
+      "nombre": "Atardecer en las mañanas",
+      "Estado": "2",
+      "Telefono": "3012434014",
+      "Pais": "Colombia",
+      "Ciudad": "Medellin",
+      "Direccion": "calle 32 a 53 b 32",
+      "Habitaciones": "5",
+      "Baños": "2",
+      "costo": "120.000"
+    },
+    {
+      "id": 1647436275360,
+      "nombre": "Atardecer en las mañanas",
+      "Estado": "2",
+      "Telefono": "3012434014",
+      "Pais": "Colombia",
+      "Ciudad": "Medellin",
+      "Direccion": "calle 32 a 53 b 32",
+      "Habitaciones": "5",
+      "Baños": "2",
+      "costo": "120.000"
+    },
+    {
+      "id": 1647436275577,
+      "nombre": "Atardecer en las mañanas",
+      "Estado": "2",
+      "Telefono": "3012434014",
+      "Pais": "Colombia",
+      "Ciudad": "Medellin",
+      "Direccion": "calle 32 a 53 b 32",
+      "Habitaciones": "5",
+      "Baños": "2",
+      "costo": "120.000"
     }
-    
   ]
 }
