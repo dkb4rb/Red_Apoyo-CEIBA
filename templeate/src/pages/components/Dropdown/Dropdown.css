@@ -1,0 +1,55 @@
+.body {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+}
+
+.dropdown {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.dropdown-menu {
+    background-color: #bbbbbb80 !important;
+    border-radius: 12px !important;
+    box-shadow: rgb(0 0 0 / 12%) 0px 2px 16px !important;
+    color: #212529 !important;
+    margin-top: 43px !important;
+    padding: 8px 0px !important;
+    position: absolute !important;
+    right: 218px !important;
+    max-height: calc(100vh - 100px) !important;
+    overflow-y: auto !important;
+    z-index: 1000 !important;
+    min-width: 189px !important;
+    display: block !important;
+    border: 1px solid rgba(0,0,0,0.15);
+    list-style: none;
+    background-clip: padding-box;
+    margin: 0;
+    font-size: 1rem;
+    text-align-last: left !important;
+    
+}
+
+  .center {
+      background-color: red;
+  }
+  
+
+
+  .btns_drop {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 12px;
+    width: 98%;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+
+  .btns_drop:hover {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 13px;
+    background-color: #ffffff2e;
+    font-weight: bold;
+    transition: background-color 1s;   
+  }

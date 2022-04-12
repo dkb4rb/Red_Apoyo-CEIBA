@@ -1,0 +1,322 @@
+.Profiles_container{
+    margin-top: 100px;
+}
+
+.zona_fotos{
+    background-color: yellow;
+    margin: 10px;
+
+}
+.zona_costo{
+    margin: 10px;
+
+    background-color: green;
+}
+
+.zona_reserva{
+    background-color: aqua;
+    margin: 10px;
+
+}
+.zona_descripcion {
+    background-color: blue;
+    margin: 10px;
+
+}
+.zona_comentarios {
+    background-color: tomato;
+    margin: 10px;
+
+}
+
+.perfil-house .portada-perfil-house {
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 60%;
+    height: 17rem;
+    margin-bottom: 0.5rem;
+}
+
+.container_profile_usr {
+    background-color: none;
+}
+
+
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    line-height: 1.4;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    color: #404040;
+    font-family: "Arial", Segoe UI, Tahoma, sans-serifl, Helvetica Neue, Helvetica;
+}
+
+.perfil-house {
+    background: linear-gradient(#78787842, transparent);
+    color: #333;
+    box-shadow: 0px 0px 33px -8px;
+}
+
+.perfil-house .sombra {
+    position: absolute;
+    display: block;
+    background: linear-gradient(transparent, rgba(0, 0, 0, .5));
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+}
+
+.perfil-house .portada-perfil-house,
+.perfil-house .sombra {
+    border-radius: 0 0 20px 20px;
+}
+
+.perfil-house img {
+    width: 100%;
+}
+
+.contenedor-perfil {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.perfil-house .contenedor-perfil {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.perfil-house .portada-perfil-house {
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 17rem;
+    margin-bottom: 0.5rem;
+    background-image: url('https://icdn.dtcn.com/image/digitaltrends_es/2-229-500x500.jpg');
+    opacity: 0.7;
+}
+.perfil-house .avatar-perfil {
+    display: block;
+    width: 230px;
+    height: 230px;
+    background-color: #D9DCF1;
+    position: absolute;
+    bottom: -65px;
+    left: 4rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0 0 12px 2px rgba(0, 0, 0, .2);
+}
+
+.perfil-house .cambiar-foto {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, .5);
+    height: 57%;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    text-decoration: none;
+    transform: translateY(50%);
+    opacity: 0;
+    transition: all ease-in 200ms;
+}
+
+.perfil-house .cambiar-foto i {
+    margin-bottom: .5rem;
+    font-size: 2rem;
+}
+
+.perfil-house .avatar-perfil:hover .cambiar-foto {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.perfil-house .datos-perfil {
+    position: absolute;
+    display: block;
+    width: calc(100% - 69px - 8rem);
+    right: -452px;
+    bottom: 0;
+    color: #fff;
+    text-shadow: 0 0 5px rgb(0 0 0 / 20%);
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+
+.perfil-house .titulo-usuario {
+    font-size: 2.3rem;
+    white-space: nowrap;
+    margin-bottom: .5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.perfil-house .bio-usuario {
+    font-size: 1em;
+    margin-bottom: .75rem;
+}
+
+.perfil-house .lista-perfil {
+    list-style: none;
+}
+
+.perfil-house .lista-perfil li {
+    display: inline-block;
+    font-size: 1em;
+    margin-right: 1rem;
+}
+
+.perfil-house .opcciones-perfil {
+    display: block;
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+}
+
+.perfil-house .opcciones-perfil button {
+    border: 0;
+    padding: 8px 20px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    cursor: pointer;
+}
+
+.perfil-house .menu-perfil ul {
+    display: flex;
+    list-style: none;
+    margin-left: calc(200px + 8rem);
+    width: calc(100% - 200px - 8rem);
+}
+
+.perfil-house .menu-perfil ul li {
+    margin-right: 1rem;
+}
+
+.perfil-house .menu-perfil a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 8px 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all ease-in 100ms;
+}
+
+.perfil-house .menu-perfil a:hover {
+    background-color: #4CB0C6;
+    color: #fff;
+}
+
+.perfil-house .icono-perfil {
+    display: none;
+    margin-right: .75rem;
+}
+
+@media (max-width: 780px) {
+    .perfil-house .contenedor-perfil {
+        width: 100%;
+    }
+
+    .perfil-house .avatar-perfil {
+        left: calc(50% - 115px)
+    }
+
+    .perfil-house .datos-perfil {
+        bottom: 200px;
+        left: 0;
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .perfil-house .bio-usuario {
+        font-size: 1em;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .perfil-house .titulo-usuario {
+        font-size: 2.1rem;
+    }
+
+    .perfil-house .portada-perfil-house {
+        height: 28rem;
+    }
+
+    .perfil-house .menu-perfil ul {
+        flex-direction: column;
+    }
+
+    .perfil-house .lista-perfil {
+        display: block;
+    }
+
+    .perfil-house .menu-perfil {
+        margin-top: 2rem;
+    }
+
+    .perfil-house .menu-perfil ul {
+        display: flex;
+        list-style: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 2.5rem;
+        width: 70%;
+        background-color: #fff;
+        border-radius: 12px;
+        box-shadow: 0 0 12px 2px rgba(0, 0, 0, .1);
+    }
+
+    .perfil-house .icono-perfil {
+        display: inline-block;
+    }
+}
+
+.mensaje a {
+    color: inherit;
+    margin-right: .5rem;
+    display: inline-block;
+}
+
+.mensaje a:hover {
+    color: #309B76;
+    transform: scale(1.4)
+}
+
+.mis-redes {
+    display: block;
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    opacity: 0.5;
+    z-index: 1000;
+}

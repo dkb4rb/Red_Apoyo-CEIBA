@@ -1,0 +1,21 @@
+### post 1
+POST https://isnft-prod.azurewebsites.net/api/users HTTP/1.1
+Content-Type: application/json
+Authorization: Hola
+
+{
+      "email": "test1@gm.com",
+      "password": "Hola",
+      "person": {
+        "birthday": "10-10-1929",
+        "cityId": 1,
+        "lastName": "dqwq",
+        "name": "data.name",
+        "phone": "data.phone",
+      },
+      "userName": "data.userName",
+}
+
+### GET 
+GET https://isnft-prod.azurewebsites.net/api/users
+Content-Type: application/json

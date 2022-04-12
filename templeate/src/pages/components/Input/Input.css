@@ -1,0 +1,14 @@
+.Input {
+    font-family: 'Courier New', Courier, monospace;
+}
+.input-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.input-groupp {
+    margin: auto;
+    margin-left: 0pc;
+}

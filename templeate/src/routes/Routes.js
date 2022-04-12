@@ -1,0 +1,41 @@
+import React from 'react';
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import Login from '../pages/Login/Login';
+import { products } from '../pages/products/products';
+import Resgistro from '../pages/Registro/Registro';
+import Profile from '../pages/components/Profile/Profile';
+import Search_House from "../pages/Search_House/Search_House";
+import Calificacion_Estadia from "../pages/Calificacion/Estadia";
+import Calificacion_Huesped from "../pages/Calificacion/Huesped";
+import Layout from "../pages/components/Layout/Layout"
+import UsrProfile from '../pages/components/UsrProfile/UsrProfile';
+
+
+
+function Routes() {
+  
+  return (
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Login}/>
+        <Route exact path="/Login" component={Login}/>
+        <Route exact path="/Registro" component={Resgistro}/>
+        <Route exact path="/menu" component={Layout}/>
+        <Route exact path="/Products" component={Layout}/>
+        <Route exact path="/Public" component={Layout}/>
+        <Route exact path="/MapView" component={Layout}/>
+        <Route exact path="/Productss" component={products}/>
+
+      
+        <Route exact path="/Products/:id" component={Profile}/>
+        <Route exact path="/usrprofile/:id" component={UsrProfile}/>
+
+        <Route exact path={"/Calificacion_Estadia"} component={Calificacion_Estadia} />
+        <Route exact path={"/Calificacion_Huesped"} component={Calificacion_Huesped} />
+        
+      </Switch>
+    </BrowserRouter>
+  );
+}
+
+export default Routes;

@@ -1,0 +1,719 @@
+* {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+
+    color: #484848;
+}
+
+div.logo_navbar {
+   
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/6908/6908753.png);
+    width: 52px;
+    height: 52px;
+    border-radius: 124px;
+    border-style: outset;
+    margin-left: 48px;
+
+}
+
+.usr_btn_menu {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/1177/1177568.png);
+    margin-top: 3px;
+    margin-left: 17px;
+    height: 32px;
+    width: 30px;
+    
+}
+
+.container_menu {
+
+    align-content: center;
+    text-align-last: center;
+    background-color: aliceblue;
+}
+
+.container_carousel_principal {
+    background-color: none;
+}
+
+/**
+* This is media Query to charge css layout design responsive
+*/
+@media (max-width:1050px){
+    div.logo_navbar {
+   
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(https://cdn-icons-png.flaticon.com/512/6908/6908753.png);
+        width: 52px;
+        height: 52px;
+        border-radius: 124px;
+        border-style: outset;
+        margin-left: 48px;
+        border: none;
+    
+    }
+   
+ 
+     .form_dist{
+         display: inline-flex;
+         width: auto;
+         font-size: 15px;
+     }
+     .container_publicar {
+         margin: auto;
+         margin-top: 60px;
+         background: #d7d7d740;
+         border-radius: 21px;
+         box-shadow: 0px 0px 27px -11px;
+         margin-bottom: 10px;
+     }
+     .rent img {
+         border: none;
+         opacity: 0.5;
+         width: 200px;
+     }
+}
+
+
+
+@media (max-width:1000px){
+    div.logo_navbar {
+   
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(https://cdn-icons-png.flaticon.com/512/6908/6908753.png);
+        width: 52px;
+        height: 52px;
+        border-radius: 124px;
+        border-style: outset;
+        margin-left: 48px;
+        border: none;
+    
+    }
+   
+ 
+     .form_dist{
+         display: inline-flex;
+         width: auto;
+         font-size: 15px;
+     }
+     .container_publicar {
+         margin: auto;
+         margin-top: 60px;
+         background: #d7d7d740;
+         border-radius: 21px;
+         box-shadow: 0px 0px 27px -11px;
+         margin-bottom: 10px;
+     }
+     .rent2 img {
+         display:inline;
+         border: none;
+         opacity: 0.5;
+         width: 200px;
+     }
+}
+
+
+@media (max-width:950px){
+    div.logo_navbar {
+   
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(https://cdn-icons-png.flaticon.com/512/6908/6908753.png);
+        width: 52px;
+        height: 52px;
+        border-radius: 124px;
+        border-style: outset;
+        margin-left: 48px;
+        border: none;
+    
+    }
+   
+ 
+     .form_dist{
+         display: inline-flex;
+         width: auto;
+         font-size: 15px;
+     }
+     .container_publicar {
+         margin: auto;
+         margin-top: 60px;
+         background: #d7d7d740;
+         border-radius: 21px;
+         box-shadow: 0px 0px 27px -11px;
+         margin-bottom: 10px;
+     }
+     .rent img {
+         display: none;
+     }
+     .rent2 img {
+        display:inline;
+        border: none;
+        opacity: 0.5;
+        width: 200px;
+    }
+}
+
+
+@media (max-width:900px){
+    div.logo_navbar {
+   
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(https://cdn-icons-png.flaticon.com/512/6908/6908753.png);
+        width: 52px;
+        height: 52px;
+        border-radius: 124px;
+        border-style: outset;
+        margin-left: 48px;
+        border: none;
+    
+    }
+
+    .form_dist{
+        display: inline-flex;
+        width: auto;
+        font-size: 15px;
+    }
+    .container_publicar {
+        margin: auto;
+        margin-top: 60px;
+        background: #d7d7d740;
+        border-radius: 21px;
+        box-shadow: 0px 0px 27px -11px;
+        margin-bottom: 10px;
+    }
+    .rent2 img {
+        display: inline;
+        border: none;
+        opacity: 0.5;
+        width: 200px;
+    }
+}
+
+@media (max-width:850px){
+    div.logo_navbar {
+   
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(https://cdn-icons-png.flaticon.com/512/6908/6908753.png);
+        width: 52px;
+        height: 52px;
+        border-radius: 124px;
+        border-style: outset;
+        margin-left: 48px;
+        border: none;
+    
+    }
+    
+
+    .form_dist{
+        display: inline-flex;
+
+        width: auto;
+        font-size: 15px;
+    }
+    .container_publicar {
+        margin: auto;
+        margin-top: 60px;
+        background: #d7d7d740;
+        border-radius: 21px;
+        box-shadow: 0px 0px 27px -11px;
+        margin-bottom: 10px;
+    }
+    .rent2 img {
+        display: initial;
+        border: none;
+        opacity: 0.5;
+        width: 200px;
+    }
+
+    
+}
+
+
+@media (max-width:800px){
+  
+    div.logo_navbar {
+   
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(https://cdn-icons-png.flaticon.com/512/6908/6908753.png);
+        width: 52px;
+        height: 52px;
+        border-radius: 124px;
+        border-style: outset;
+        margin-left: 48px;
+        border: none;
+    
+    }
+
+    .form_dist{
+        display: inline-flex;
+        width: auto;
+        font-size: 15px;
+    }
+    .container_publicar {
+        margin: auto;
+        margin-top: 60px;
+        background: #d7d7d740;
+        border-radius: 21px;
+        box-shadow: 0px 0px 27px -11px;
+        margin-bottom: 10px;
+       
+    }
+    .rent img {
+        display: none;
+    }
+    .rent2 img {
+        display: initial;
+        border: none;
+        opacity: 0.5;
+        width: 200px;
+    }
+    .container_carousel {
+        width: 45%;
+        margin: auto;
+        margin-top: 33px;
+    }
+}
+
+@media (max-width:750px){
+  
+    .control_btn_search {
+        font-size: 10px;
+    }
+    div.logo_navbar {
+   
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(https://cdn-icons-png.flaticon.com/512/6908/6908753.png);
+        width: 52px;
+        height: 52px;
+        border-radius: 124px;
+        border-style: outset;
+        margin-left: 48px;
+        border: none;
+    
+    }
+
+    .form_dist{
+        display: inline-flex;
+
+        width: auto;
+        font-size: 15px;
+    }
+    .container_publicar {
+        margin: auto;
+        margin-top: 60px;
+        background: #d7d7d740;
+        border-radius: 21px;
+        box-shadow: 0px 0px 27px -11px;
+        margin-bottom: 10px;
+        width: 114%;
+    }
+    .rent img {
+        display: none;
+    }
+    .rent2 img {
+        display: initial;
+        border: none;
+        opacity: 0.5;
+        width: 200px;
+    }
+}
+
+
+
+@media (max-width:700px){
+    .btn-group>.btn-group:not(:last-child)>.btn, .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        font-size: 14px;
+    }
+    div.logo_navbar {
+   
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(https://cdn-icons-png.flaticon.com/512/6908/6908753.png);
+        width: 52px;
+        height: 52px;
+        border-radius: 124px;
+        border-style: outset;
+        margin-left: 48px;
+        border: none;
+    
+    }
+
+    .form_dist{
+        display: inline-flex;
+
+        width: auto;
+        font-size: 15px;
+    }
+    .container_publicar {
+        margin: auto;
+        margin-top: 60px;
+        background: #d7d7d740;
+        border-radius: 21px;
+        box-shadow: 0px 0px 27px -11px;
+        margin-bottom: 10px;
+        width: auto;
+    }
+    .rent img {
+        border: none;
+        opacity: 0.5;
+        width: 200px;
+    }
+    .rent2 img {
+        display: initial;
+        border: none;
+        opacity: 0.5;
+        width: 200px;
+    }
+}
+
+@media (max-width:650px){
+    .btn-group>.btn-group:not(:last-child)>.btn, .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        font-size: 14px;
+    }
+    div.logo_navbar {
+   
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(https://cdn-icons-png.flaticon.com/512/6908/6908753.png);
+        width: 52px;
+        height: 52px;
+        border-radius: 124px;
+        border-style: outset;
+        margin-left: 48px;
+        border: none !important;
+    
+    }
+
+    .form_dist{
+        display: inline-flex;
+
+        width: auto;
+        font-size: 15px;
+    }
+    .container_publicar {
+        margin: auto;
+        margin-top: 60px;
+        background: #d7d7d740;
+        border-radius: 21px;
+        box-shadow: 0px 0px 27px -11px;
+        margin-bottom: 10px;
+        width: auto;
+    }
+    .rent img {
+        border: none;
+        opacity: 0.5;
+        width: 200px;
+    }
+    .rent2 img {
+        display: initial;
+        border: none;
+        opacity: 0.5;
+        width: 200px;
+    }
+}
+
+@media (max-width:600px){
+    .btn-group>.btn-group:not(:last-child)>.btn, .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        font-size: 14px;
+    }
+    div.logo_navbar {
+   
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(https://cdn-icons-png.flaticon.com/512/6908/6908753.png);
+        width: 52px;
+        height: 52px;
+        border-radius: 124px;
+        border-style: outset;
+        margin-left: 48px;
+        border: none;
+    
+    }
+
+    .form_dist{
+        display: inline-block;
+
+        width: auto;
+        font-size: 15px;
+    }
+    .container_publicar {
+        margin: auto;
+        margin-top: 60px;
+        background: #d7d7d740;
+        border-radius: 21px;
+        box-shadow: 0px 0px 27px -11px;
+        margin-bottom: 10px;
+        width: auto;
+    }
+    .rent img {
+        border: none;
+        opacity: 0.5;
+        width: 200px;
+    }
+    .rent2 img {
+        display: initial;
+        border: none;
+        opacity: 0.5;
+        width: 200px;
+    }
+    .Sections {
+        width: 600px;
+    }
+}
+
+@media (max-width:550px){
+    .control_btn_search {
+        margin-left: 61px;
+        display: none;
+    }
+  
+    div.logo_navbar {
+   
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(https://cdn-icons-png.flaticon.com/512/6908/6908753.png);
+        width: 52px;
+        height: 52px;
+        border-radius: 124px;
+        border-style: outset;
+        margin-left: 48px;
+        border: none;
+    
+    }
+
+    .form_dist {
+        display: inline-block;
+        width: auto;
+        font-size: 15px;
+    }
+    .container_publicar {
+        margin: auto;
+        margin-top: 60px;
+        background: #d7d7d740;
+        border-radius: 21px;
+        box-shadow: 0px 0px 27px -11px;
+        margin-bottom: 10px;
+        width: auto;
+    }
+    .rent img {
+        border: none;
+        opacity: 0.5;
+        width: 200px;
+    }
+    .rent2 img {
+        display: initial !important;
+        border: none;
+        opacity: 0.5;
+        width: 200px;
+    }
+    .Sections {
+        width: 550px;
+    }
+}
+
+@media (max-width:500px){
+    .control_btn_search {
+        margin-left: 61px;
+        display: none;
+    }
+  
+    div.logo_navbar {
+   
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(https://cdn-icons-png.flaticon.com/512/6908/6908753.png);
+        width: 52px;
+        height: 52px;
+        border-radius: 124px;
+        border-style: outset;
+        margin-left: 48px;
+        border: none;
+    
+    }
+
+    .form_dist {
+        display: inline-block;
+        width: auto;
+        font-size: 15px;
+    }
+    .container_publicar {
+        margin: auto;
+        margin-top: 60px;
+        background: #d7d7d740;
+        border-radius: 21px;
+        box-shadow: 0px 0px 27px -11px;
+        margin-bottom: 10px;
+        width: auto;
+    }
+    .rent img {
+        border: none;
+        opacity: 0.5;
+        width: 200px;
+    }
+    .Sections {
+        width: 500px;
+    }
+    .container_carousel {
+        width: 100%;
+        margin: auto;
+            margin-top: auto;
+        margin-top: 33px;
+    }
+}
+
+@media (max-width:450) {
+    
+    .control_btn_search {
+        margin-left: 61px;
+        display: none;
+    }
+    .form_dist{
+        width: auto;
+        font-size: 15px;
+    }    
+    .Sections {
+        width: 450px;
+    }
+    .container_carousel {
+        width: 100%;
+        margin: auto;
+            margin-top: auto;
+        margin-top: 33px;
+    }
+}
+
+
+@media (max-width:400) {
+    .form_dist{
+        width: auto;
+        font-size: 15px;
+    }    
+    .Sections {
+        width: 400px;
+    }
+    .container_menu {
+        align-content: center;
+        text-align-last: center;
+        background-color: aliceblue;
+        width: 100%;
+        margin: auto;
+    }
+    .container_carousel_principal {
+        background-color: none;
+        width: 42%;
+    }
+    .container_carousel {
+        width: 100%;
+        margin: auto;
+            margin-top: auto;
+        margin-top: 33px;
+    }
+}
+
+
+@media (max-width:350px){
+    .form_dist{
+        
+        width: auto;
+        font-size: 15px;
+    }
+    .Sections {
+        width: 388px;
+    }
+}
+
+@media (max-width:300px){
+    .form_dist{
+        display: inline-block;
+        width: auto;
+        font-size: 15px;
+    }
+
+    div.logo_navbar {
+       display: none !important;
+    }
+    .container_publicar {
+        margin: auto;
+        margin-top: 60px;
+        background: #d7d7d740;
+        border-radius: 21px;
+        box-shadow: 0px 0px 27px -11px;
+        margin-bottom: 10px;
+        width: auto;
+    }
+    .rent img {
+        border: none;
+        opacity: 0.5;
+        width: auto;
+    }
+    .container_carousel {
+        width: 45%;
+        margin: auto;
+        margin-top: 33px;
+    }
+}
+
+@media (max-width: 250px){
+    .header_col {
+        display: flex;
+        height: 51px;
+        margin: auto;
+        justify-content: flex-start;
+        z-index: 1;
+        box-shadow: 0px 0px 189px 2px;
+        border-color: #9b98a7;
+        border-end-end-radius: 150px;
+        border-end-start-radius: 150px;
+    }
+      
+    div.logo_navbar {
+        display: none !important;
+    }
+    .container_publicar {
+        margin: auto;
+        margin-top: 60px;
+        background: #d7d7d740;
+        border-radius: 21px;
+        box-shadow: 0px 0px 27px -11px;
+        margin-bottom: 10px;
+        width: auto;
+    }
+    .rent img {
+        border: none;
+        opacity: 0.5;
+        width: 149px;
+    }
+    .container_carousel {
+        width: 45%;
+        margin: auto;
+        margin-top: 33px;
+    }
+    
+    
+    
+}
+
+@media (maxx-widt:160px) {
+    body {
+        background-image: url('https://cdn-icons-png.flaticon.com/512/6908/6908753.png');;
+    }
+   
+    div.logo_navbar {
+        display: none !important;
+    }
+}
