@@ -1,0 +1,24 @@
+.container_editpublicar {
+    margin: auto;
+    margin-top: -18px;
+    border-radius: 21px;
+    box-shadow: 0px 0px 27px -11px;
+    width: 111%;
+    margin-left: -23px;
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 120%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0.3rem;
+    outline: 0;
+    top: -101px;
+    left: 52px;
+    margin: auto;
+}

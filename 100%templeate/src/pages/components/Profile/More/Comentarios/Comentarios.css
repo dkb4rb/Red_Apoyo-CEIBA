@@ -1,0 +1,19 @@
+.container_comments{
+     background-color: #ada0a03d;
+    border-radius: 107px 30px 107px 30px;
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+
+.container_comentario{
+    background-color: #7d7d7e9c;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 13px 73px 0px 55px;
+    box-shadow: 0px 0px 62px -10px;
+    font-size: 15px;
+    color: black;
+}

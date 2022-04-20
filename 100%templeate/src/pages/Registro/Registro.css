@@ -1,0 +1,61 @@
+.Formulario_inputs {
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+}
+
+.Logo_Regis {
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/6908/6908753.png);
+    width: 110px;
+    border-radius: 41px;
+}
+
+.containerPrincipall {
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #3a353547;
+    border-radius: 19px;
+    padding: 14px;
+    box-shadow: 0px 0px 13px #46303069;
+    background-color: #d7d3d380;
+}
+
+select {
+    word-wrap: normal;
+    width: 181px;
+    border-radius: 4px;
+    height: 46px;
+    font-size: 13px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dat_in{
+    margin: 0;
+    text-align: center;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 24px;
+    top: 4px;
+    background: #abb0b1a6;
+    border: none;
+    border-radius: 9px;
+    max-height: 0px;
+    margin-left: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.dat_in:focus-visible {
+    outline: none;
+    box-shadow: 0px 0px 6px 2px;
+}

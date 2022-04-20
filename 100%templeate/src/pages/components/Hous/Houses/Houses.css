@@ -1,0 +1,81 @@
+.icon-test {
+    font-size: 61px;
+}
+
+.cardd {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    width: 235px;
+    border-radius: 11px;
+}
+
+.card-img{
+    border-radius: 5px;
+    zoom: 1;
+}
+.card-img:hover {
+    z-index: 1;
+    margin-left: -81px;
+    width: 390px;
+    box-shadow: 0px 0px 20px 1px;
+}
+
+.ValueHouse{
+    display: inline-flex;
+    text-align: center;
+    place-self: center;
+}
+
+.spann {
+    position: absolute;
+    top: -9999em;
+    left: -9999em;
+}
+
+
+.col {
+    flex: 1 0;
+    opacity: 0.8;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+li {
+
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 3px 10px;
+    border: #040a0d14 1px solid;
+        border-right-color: rgba(4, 10, 13, 0.08);
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-left-color: rgba(4, 10, 13, 0.08);
+        border-left-style: solid;
+        border-left-width: 1px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-left: none;
+    border-right: none;
+    margin: auto;
+        margin-left: auto;
+    margin-left: -24px;
+    border-top: none
+    ;
+}
+
+.userprofilerr {
+    position: absolute;
+    margin-left: 31px;
+    margin-top: -49px;
+    cursor: pointer;
+}
